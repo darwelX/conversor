@@ -1,6 +1,6 @@
 {
   "name": "converter_masa",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convierte libras a kilogramos y viserversa",
   "main": "dist/src/conversor.js",
   "scripts": {
