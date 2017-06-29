@@ -1,12 +1,15 @@
-const  baseLibras = 2.20462;
-const  baseKilogramos = 0.453592;
+export const Conversor = {
+  baseLibras: 2.20462,
+  baseKilogramos: 0.453592,
 
-export function  librasToKilogramos(_libras){
-    return _libras * baseKilogramos
-  }
+  librasToKilogramos(_libras){
+    return _libras * this.baseKilogramos
+  },
 
-export function  kilogramosToLinbras(_kilogramos){
-    return _kilogramos * baseLibras
+  kilogramosToLinbras(_kilogramos){
+    return _kilogramos * this.baseLibras
   }
+}
+
 
 
