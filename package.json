@@ -1,0 +1,34 @@
+{
+  "name": "converter_masa",
+  "version": "0.2.0",
+  "description": "Convierte libras a kilogramos y viserversa",
+  "main": "dist/src/conversor.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src/conversor.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darwelX/conversor.git"
+  },
+  "keywords": [
+    "javascript",
+    "conversor",
+    "de",
+    "masa"
+  ],
+  "author": "Darwel Quintero <darwel34@gmail.com> (https://twiter.com/darwelX)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darwelX/conversor/issues"
+  },
+  "homepage": "https://github.com/darwelX/conversor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2"
+  },
+  "dependencies": {
+    "mocha": "^3.4.2"
+  }
+}
