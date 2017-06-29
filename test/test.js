@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-var Conversor = require('..').Conversor;
+const Conversor = require('..').Conversor;
 
 describe('#conversor', function(){
 
